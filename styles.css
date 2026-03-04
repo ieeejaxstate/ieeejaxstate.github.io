@@ -268,7 +268,7 @@ body {
 .hero h1,
 .page-header h1 {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: clamp(4.8rem, 10vw, 7rem);
+  font-size: clamp(4.8rem, 10vw, 6rem);
   font-weight: 800;
   color: white;
   margin-bottom: 1.2rem;
@@ -352,15 +352,18 @@ body {
 
 .calendar-section {
   margin-top: var(--space-xl);
+  margin-bottom: var(--space-xl);
   text-align: center;
   padding: 0 var(--space-md);
 }
 
 .calendar-section h1 {
-  font-size: clamp(1.4rem, 4vw, 2.5rem);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
 }
 
 .calendar-iframe {
+  margin-top: var(--space-md);
   border: 0;
   width: 90%;
   height: 70vh;
@@ -389,6 +392,7 @@ body {
 }
 
 .cta-section h2 {
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(1.6rem, 5vw, 3rem);
   margin-bottom: var(--space-md);
 }
@@ -490,7 +494,7 @@ body {
 
 .about-main {
   padding: var(--space-xl) var(--space-lg);
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -500,7 +504,7 @@ body {
 }
 
 /* ────────────────────────────────────────────────
-   About Feature Section (dark)
+   About Feature Section
 ───────────────────────────────────────────────── */
 
 .about-feature {
@@ -530,7 +534,7 @@ body {
 
 .about-feature__heading {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   color: #fff;
   margin-bottom: var(--space-md);
   line-height: 1.1;
@@ -555,6 +559,23 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.about-section h2 {
+  margin-top: 0.5vh;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.about-section li {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.about-section ul{
+  margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
@@ -633,7 +654,7 @@ body {
 .ev-heading {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(2.5rem, 5vw, 3.5rem);
-  color: var(--jsu-maroon);
+  color: var(--text-primary);
   font-style: italic;
   margin-bottom: var(--space-lg);
 }
@@ -1298,13 +1319,13 @@ footer a:hover {
   height: 16px;
   border-radius: 50%;
   background: var(--jsu-maroon);
-  border: 3px solid var(--jsu-gold);
+  border: 3px solid var(--jsu-maroon);
   z-index: 2;
 }
 
 .timeline-year {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #000000;
   margin-bottom: 0.25rem;
@@ -1312,8 +1333,9 @@ footer a:hover {
 
 .timeline-content p {
   color: #b0b0b0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -1346,7 +1368,7 @@ footer a:hover {
 .gallery-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
-  color: var(--jsu-maroon);
+  color: var(--text-primary);
   margin-bottom: var(--space-lg);
 }
 
