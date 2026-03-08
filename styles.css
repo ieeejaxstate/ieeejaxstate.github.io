@@ -181,42 +181,6 @@ body {
 }
 
 /* ────────────────────────────────────────────────
-   Announcement Banner
-───────────────────────────────────────────────── */
-
-.announcement-banner {
-  background: linear-gradient(135deg, var(--jsu-maroon), #9a2440);
-  color: white;
-  padding: 0.7rem 0;
-  text-align: center;
-  font-weight: 500;
-  position: relative;
-  z-index: 999;
-}
-
-.announcement-text {
-  transition: opacity 0.6s ease;
-}
-
-.banner-close {
-  position: absolute;
-  right: 1.2rem;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.4rem;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.banner-close:hover { opacity: 1; }
-
-.announcement-banner.hidden { display: none; }
-
-
-/* ────────────────────────────────────────────────
    Page Specific Hero images
 ───────────────────────────────────────────────── */
 
@@ -1150,6 +1114,11 @@ footer a:hover {
 }
 
 .officer-card__links a:hover { color: var(--jsu-gold); }
+
+.video-wrapper img,
+.video-wrapper video {
+  transition: opacity 0.4s ease;
+}
 
 
 /* ────────────────────────────────────────────────
